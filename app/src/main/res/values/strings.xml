@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ganjil_genap</string>
+    <string name="toast_message">hello pengguna !!</string>
+    <string name="Jumlah_kali">jumlah kali :</string>
+    <string name="pesan_reset">berhasil reset bilangan</string>
+</resources>

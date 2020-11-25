@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/Button_id"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="@drawable/custom_bottom"
+        android:onClick="toast"
+        android:gravity="center"
+        android:text="Toast" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:gravity="center"
+        android:text="Bilangan Ganjil"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/id_ganjil"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="100sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Bilangan Genap"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/id_genap"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:gravity="center"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="100sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_bottom"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:onClick="button"
+            android:text="Count" />
+
+        <Button
+            android:id="@+id/reset_id"
+            android:layout_width="wrap_content"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_bottom"
+            android:gravity="center"
+            android:onClick="button_reset"
+            android:text="Reset" />
+    </LinearLayout>
+
+</LinearLayout>
